@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML Layout</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<style type="text/css">
+			body
+			{
+				font-family: "Arial";
+				margin:0;
+			}
+			footer {
+			    width: 100%;
+			    display: inline-block;
+			    margin: auto;
+			    background-color: lightgray;
+
+			}
+			.alignleft {
+				padding-left: 20px;
+				float: left;
+			}
+			.alignright {
+				float: right;
+				padding-right: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<header class="header">
+			<div class="alignleft" style="padding: 20px">LOGO</div>
+			<div class="alignright" style="padding: 20px">NAVIGATION</div>
+			<div style="clear: both;"></div>
+		</header>
+		<section class="bannertext">
+			<h2 style="color:grey;text-align:center">Banner goes here</h2>
+		</section>
+		<section class="punchline">
+			<p>Punch Line Goes Here</p>
+			<button style="padding:10px;background-color:blue;color:white;border:none;border-radius:5px;font-weight:bold;">LEARN MORE</button>
+		</section>
+		<section class="text">
+			<p style="text-align:center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+		</section>
+		<section style="width:100%;height: 200px;display: flex;">
+			<div class="service">SERVICE</p></div>
+			<div class="service">SERVICE</div>
+			<div class="service">SERVICE</div>
+		</section>
+		<section class ="text">
+			<h1 style="text-align:center;color: green">
+				CLIENT LOGO GOES HERE
+			</h1>
+		</section>
+		<section class="container">
+			<div class="item">
+			</div>
+			<div class="item">
+			</div>
+			<div class="item">
+			</div>
+			<div class="item">
+			</div>
+			<div class="item">
+			</div>
+			<div class="item">
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="alignleft" style="margin-top: 30px"><b>FOOTER ADDRESS</b></div>
+			<div style="clear: both;padding-top: 20px"></div>
+			<div class="alignleft">SOCIAL ICONS</div>
+			<div class="alignright">FOOTER LINKS</div>
+			<div style="clear: both; padding-top: 20px"></div>
+			<div class="alignleft">COPYRIGHT</div>
+			<div class="alignright">PRIVACY</div>
+			<div style="clear: both;margin-bottom: 30px"></div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\bin\Debug\netcoreapp3.1\CommonObjects.deps.json
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\bin\Debug\netcoreapp3.1\CommonObjects.dll
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\bin\Debug\netcoreapp3.1\CommonObjects.pdb
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.csprojAssemblyReference.cache
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.AssemblyInfoInputs.cache
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.AssemblyInfo.cs
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.csproj.CoreCompileInputs.cache
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.dll
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\MicroserviceAssignment3\CommonObjects\obj\Debug\netcoreapp3.1\CommonObjects.pdb
