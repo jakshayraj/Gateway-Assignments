@@ -1,4 +1,5 @@
-﻿using BusinessEntities;
+﻿using AutoMapper;
+using BusinessEntities;
 using Data.Repository.Interface;
 using System;
 using System.Collections.Generic;
@@ -11,18 +12,19 @@ namespace Data.Repository
     public class EmployeeRepository : IEmployeeRepository
     {
         private readonly AppDBContext _context;
+        private readonly IMapper _mapper;
 
-        public EmployeeRepository(AppDBContext context)
+        public EmployeeRepository(AppDBContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
         public string CreateEmployee(EmployeeViewModel model)
         {
             if (model != null)
             {
-                Employee entity = new Employee();
-                entity.Name = model.Name;
-                _context.Add(entity);
+                Employee entity = _mapper.Map<EmployeeViewModel, Employee>(model);
+                _context.Employee.Add(entity);
                 _context.SaveChanges();
                 return "Employee added";
             }
@@ -45,21 +47,18 @@ namespace Data.Repository
 
             for (int i = 0; i < result.Count; i++)
             {
-                EmployeeViewModel student = new EmployeeViewModel();
-                student.Id = result[i].Id;
-                student.Name = result[i].Name;
-                EmployeeList.Add(student);
+                EmployeeViewModel employee = new EmployeeViewModel();
+                employee.Id = result[i].Id;
+                employee.Name = result[i].Name;
+                EmployeeList.Add(employee);
             }
             return EmployeeList;
         }
 
         public EmployeeViewModel GetEmployee(int? Id)
         {
-            EmployeeViewModel serviceEntities = new EmployeeViewModel();
-            Employee entity = _context.Employee.Find(Id);
-            serviceEntities.Id = entity.Id;
-            serviceEntities.Name = entity.Name;
-            return serviceEntities;
+            EmployeeViewModel employeesEntities = _mapper.Map<EmployeeViewModel>(_context.Employee.Find(Id));
+            return employeesEntities;
         }
 
         public string UpdateEmployee(EmployeeViewModel model)

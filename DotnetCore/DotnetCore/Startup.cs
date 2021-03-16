@@ -10,6 +10,7 @@ using Data.Repository.Interface;
 using Business.Interface;
 using Data.Repository;
 using Business;
+using System;
 
 namespace DotnetCore
 {
@@ -33,6 +34,7 @@ namespace DotnetCore
             services.AddMvc();
             services.AddScoped(typeof(IEmployeeRepository), typeof(EmployeeRepository));
             services.AddTransient(typeof(IEmployeeManager), typeof(EmployeeManager));
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

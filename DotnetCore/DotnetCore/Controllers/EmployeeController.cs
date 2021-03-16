@@ -23,7 +23,7 @@ namespace DotnetCore.Controllers
         // GET: Employees
         public IActionResult Index()
         {
-            var result = _EmployeeManager.GetAllEmployees();
+            var result = _EmployeeManager.GetAllEmployees().ToList();
             return View(result);
         }
         // GET: Employees/Details/5
