@@ -1,0 +1,6 @@
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\bin\Debug\Common.dll
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\bin\Debug\Common.pdb
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\obj\Debug\Common.csprojAssemblyReference.cache
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\obj\Debug\Common.dll
+C:\Users\akshayrajsinh.jadeja\Documents\Gateway Assignment\ServiceBooking\Common\obj\Debug\Common.pdb
